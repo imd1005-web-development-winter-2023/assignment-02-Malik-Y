@@ -1,3 +1,293 @@
-/*
-  CSS File
-*/
+html{
+  height: 100%;
+}
+.home {
+  font-weight: bold;
+  text-align: left;
+  font-size: 50;
+  color: aliceblue;
+}
+.h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  color: aliceblue;
+}
+.logo {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+  width: 10%;
+}
+.mainphoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+.trending {
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  color: #61acb4;
+}
+body {
+  background-color: #24252a;
+}
+.navmenu {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(100, 100, 100, 0)
+    ),
+    url(IMages/luxury-activewear-best-athleisure-luxe-digital.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #9a9a9a;
+  transition: 0.3s;
+}
+button {
+  border: none;
+  background: #61acb4;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.hoodies{
+  padding-top: 50px;
+  width: 505px;
+  border-radius: 30px;
+}
+.shoes{
+  padding-top: 50px;
+  width: 600px;
+  border-radius: 30px;
+}
+row{
+  size: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+textrow1{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 21%;
+  color: aliceblue;
+  font-weight: bold;
+}
+hoodiesbutton{
+  border: none;
+  background: aliceblue;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.accessories{
+  padding-top: 50px;
+  width: 500px;
+  border-radius: 30px;
+}
+.tracksuits{
+  padding-top: 50px;
+  width: 400px;
+  border-radius: 30px;
+}
+rowe{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+textrow2{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-left: 17%;
+ padding-right: 24%;
+ color: aliceblue;
+ font-weight: bold;
+}
+.nike{
+  padding-top: 50px;
+  width: 100px;
+}
+.adidas{
+  padding-top: 50px;
+  width: 100px;
+}
+.puma{
+  padding-top: 50px;
+  width: 80px; 
+}
+.underarmour{
+  padding-top: 50px;
+  width: 100px;
+}
+brands{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  padding: 12px 280px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+shopall{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 46%;
+  padding-right: 21%;
+  color: aliceblue;
+  font-weight: bold;
+}
+.aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 130px;
+  padding-left: 6%;
+  padding-right: 21%;
+  color: #61acb4;
+  font-weight: bold;
+}
+.text{
+  text-align: left;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 650px;
+  line-height: 2.8;
+}
+.membership{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 130px;
+  padding-left: 6%;
+  padding-right: 21%;
+  color: #61acb4;
+  font-weight: bold;
+}
+.fname{
+  padding-bottom: 20px;
+}
+form{
+
+  align-items: left;
+  padding-top: 0px;
+  padding-left: 6%;
+  padding-right: 21%;
+  color: aliceblue;
+  line-height: 2.0;
+  
+}
+space{
+  padding-bottom: 200%;
+}
+
+footer{
+  min-height: 1%;
+  position: absolute;
+  bottom: 20;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 0%;
+  padding-right: 700%;
+  color: #ffffff;
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 040px;
+  color: aliceblue;
+  background: #1e1e1e;
+}
+textfoot{
+   display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 10%;
+  padding-right: 7%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: smaller;
+}
+.footer-bottom{
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 0%;
+  padding-right: 20%;
+  font-weight: lighter;
+  font-size: smaller;
+}
+.ship{
+  padding-right: 170px;
+  padding-left: 50px;
+  width: 1px;
+  font-weight: lighter;
+}
+.about{
+  padding-right: 170px;
+  padding-left: 170px;
+  font-weight: lighter;
+}
+.return{
+  padding-right: 170px;
+  padding-left: 170px;
+  font-weight: lighter;
+}
+.contact{
+  padding-right: 170px;
+  padding-left: 170px;
+  text-align: center;
+  font-weight: lighter;
+}
