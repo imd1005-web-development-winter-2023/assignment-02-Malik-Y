@@ -45,7 +45,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-nav {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,17 +53,17 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
 }
-nav ul li {
+.nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
 }
-nav ul li a {
+.nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-nav ul li a:hover {
+.nav ul li a:hover {
   color: #9a9a9a;
   transition: 0.3s;
 }
