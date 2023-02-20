@@ -1,29 +1,93 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
+    <title>Optima Sports</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <!--
+  <body class="body">
+    <div class="navmenu">
+      <nav>
+        <img class="logo" src="IMages/logo.png" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+        <button type="button">Contact</button>
+      </nav>
+    </div>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <p class="trending">Trending</p>
+    <row>
+      <img class="hoodies" src="IMages/hoodii.png" />
 
-    -->
+      <img class="shoes" src="IMages/footwear.png" />
+    </row>
+    <textrow1>
+      <button type="hoodiesbutton">Hoodies</button>
+      <button type="shoesbutton">Footwear</button>
+    </textrow1>
+    <rowe>
+      <img class="accessories" src="IMages/accessories.png" />
+
+      <img class="tracksuits" src="IMages/Tracksuits.png" />
+    </rowe>
+    <textrow2>
+      <button type="accessoriesbutton">Accessories</button>
+      <button type="tracksuitsbutton">Tracksuits</button>
+    </textrow2>
+    <brands>
+      <img class="adidas" src="IMages/Adidas_Logo.svg.png" />
+      <img class="nike" src="IMages/Nike-Logo.png" />
+      <img class="underarmour" src="IMages/Under_armour_logo.svg.png" />
+      <img class="puma" src="IMages/Puma-Logo-PNG-HD.png" />
+    </brands>
+    <shopall>
+      <button type="all">Shop All</button>
+    </shopall>
+    <h2 class="aboutus">About Us</h2>
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+      finibus,neque eu tincidunt ornare, tellus lorem dapibus mauris, ut
+      lobortis diam nibh ac augue. Suspendisse non lectus id sapien rutrum
+      elementum quis id purus. Curabitur ut quam ac nisi imperdiet vehicula ut
+      quis ante. Nam commodo lobortis urna. Vestibulum sem nunc, tempus non
+      imperdiet vitae,ultrices id tellus. Curabitur et risus metus. Nulla auctor
+      pellentesquefelis. Vivamus laoreet, nisi a porttitor dapibus, dui purus
+      maximus ex, ac sagittis risus purus id dui. Orci varius natoque penatibus
+      et magnis dis parturient montes, nascetur ridiculus mus. Cras egestas
+      venenatis finibus.
+    </p>
+    <p class="membership">Become Member</p>
+    <form>
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" />
+    </form>
+    <form>
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" />
+    </form>
+    <form>
+      <label for="phone">Phone Number:</label><br />
+      <input type="text" id="phone" name="phone" />
+    </form>
+    <space>
+      <p></p>
+    </space>
   </body>
+  <footer>
+    <textfoot>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2023 OptimaSports</p>
+      </div>
+      <p class="ship">Shipping</p>
+      <p class="return">Returns</p>
+      <p class="contact">Contact Us</p>
+      <p class="about">About</p>
+    </textfoot>
+  </footer>
 </html>
