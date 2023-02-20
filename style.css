@@ -89,7 +89,7 @@ button:hover {
   width: 600px;
   border-radius: 30px;
 }
-row{
+.row{
   size: 1px;
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ row{
   padding-left: 5%;
   padding-right: 5%;
 }
-textrow1{
+.textrow1{
    display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,7 +126,7 @@ hoodiesbutton{
   width: 400px;
   border-radius: 30px;
 }
-rowe{
+.rowe{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -134,7 +134,7 @@ rowe{
   padding-left: 5%;
   padding-right: 15%;
 }
-textrow2{
+.textrow2{
   display: flex;
  align-items: center;
  justify-content: space-between;
@@ -160,7 +160,7 @@ textrow2{
   padding-top: 50px;
   width: 100px;
 }
-brands{
+.brands{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -250,7 +250,7 @@ footer{
   color: aliceblue;
   background: #1e1e1e;
 }
-textfoot{
+.textfoot{
    display: flex;
   align-items: left;
   justify-content: space-between;
