@@ -85,7 +85,7 @@ button:hover {
 }
 .shoes{
   padding-top: 50px;
-  width: 600px; 
+  width: 580px; 
 }
 .row{
   display: flex;
@@ -105,21 +105,13 @@ button:hover {
   color: aliceblue;
   font-weight: bold;
 }
-hoodiesbutton{
-  border: none;
-  background: aliceblue;
-  padding: 12px 30px;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: 0.4s;
-}
+
 .accessories{
   padding-top: 50px;
-  width: 500px;
 }
 .tracksuits{
   padding-top: 50px;
-  width: 400px;
+  width: 900px;
 }
 .rowe{
   display: flex;
@@ -127,7 +119,7 @@ hoodiesbutton{
   justify-content: space-between;
   padding-top: 0px;
   padding-left: 5%;
-  padding-right: 15%;
+  padding-right: 5%;
 }
 .textrow2{
   display: flex;
@@ -192,7 +184,7 @@ hoodiesbutton{
   text-align: left;
   color: aliceblue;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-right: 650px;
   line-height: 2.8;
 }
@@ -200,7 +192,7 @@ hoodiesbutton{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 130px;
+  padding-top: 30px;
   padding-left: 6%;
   padding-right: 21%;
   color: #61acb4;
@@ -218,28 +210,24 @@ form{
   line-height: 2.0;
   
 }
-space{
-  padding-bottom: 200%;
-}
+
 
 footer{
   min-height: 1%;
-  position: absolute;
-  bottom: 20px;
+  bottom: 0;
   right: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  margin-top: 90px;
+  padding-top: 0px;
   padding-left: 0%;
   padding-right: 700%;
   color: #ffffff;
   font-weight: bold;
-  position: fixed;
   left: 0px;
-  bottom: 0px;
   width: 100%;
-  height: 040px;
+  height: 100px;
   color: aliceblue;
   background: #1e1e1e;
 }
@@ -282,4 +270,11 @@ footer{
   padding-left: 170px;
   text-align: center;
   font-weight: lighter;
+}
+
+.Submit{
+  margin-top: 20px;
+  padding-left: 100px;
+  width: 20px;
+  height: 20px;
 }
