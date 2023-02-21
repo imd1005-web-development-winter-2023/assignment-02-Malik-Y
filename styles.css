@@ -32,6 +32,8 @@ html{
   color: #61acb4;
 }
 body {
+  height: 100vh;
+  width: 100vw;
   background-color: #24252a;
 }
 .navmenu {
@@ -222,7 +224,6 @@ footer{
   margin-top: 90px;
   padding-top: 0px;
   padding-left: 0%;
-  padding-right: 700%;
   color: #ffffff;
   font-weight: bold;
   left: 0px;
