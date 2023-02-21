@@ -4,7 +4,7 @@ html{
 .home {
   font-weight: bold;
   text-align: left;
-  font-size: 50;
+  font-size: 50px;
   color: aliceblue;
 }
 .h1 {
@@ -15,7 +15,7 @@ html{
 }
 .logo {
   display: block;
-  margin-left: left;
+  padding-left: 0px;
   margin-right: auto;
   width: 10%;
 }
@@ -80,18 +80,14 @@ button:hover {
   cursor: pointer;
 }
 .hoodies{
-  padding-right: 50px;
   padding-top: 50px;
   width: 505px;
-  border-radius: 30px;
 }
 .shoes{
   padding-top: 50px;
-  width: 600px;
-  border-radius: 30px;
+  width: 600px; 
 }
 .row{
-  size: 1px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -104,8 +100,8 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-left: 15%;
-  padding-right: 18%;
+  padding-left: 20%;
+  padding-right: 21%;
   color: aliceblue;
   font-weight: bold;
 }
@@ -120,12 +116,10 @@ hoodiesbutton{
 .accessories{
   padding-top: 50px;
   width: 500px;
-  border-radius: 30px;
 }
 .tracksuits{
   padding-top: 50px;
   width: 400px;
-  border-radius: 30px;
 }
 .rowe{
   display: flex;
@@ -174,7 +168,7 @@ hoodiesbutton{
   font-weight: bold;
   transition: 0.4s;
 }
-shopall{
+.shopall{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -217,7 +211,6 @@ shopall{
 }
 form{
 
-  align-items: left;
   padding-top: 0px;
   padding-left: 6%;
   padding-right: 21%;
@@ -232,9 +225,8 @@ space{
 footer{
   min-height: 1%;
   position: absolute;
-  bottom: 20;
-  left: 0;
-  right: 0;
+  bottom: 20px;
+  right: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -244,8 +236,8 @@ footer{
   color: #ffffff;
   font-weight: bold;
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
   height: 040px;
   color: aliceblue;
@@ -253,7 +245,6 @@ footer{
 }
 .textfoot{
    display: flex;
-  align-items: left;
   justify-content: space-between;
   padding-top: 0px;
   padding-left: 10%;
