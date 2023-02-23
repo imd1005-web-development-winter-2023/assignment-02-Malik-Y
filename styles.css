@@ -279,3 +279,7 @@ footer{
   width: 20px;
   height: 20px;
 }
+h1{
+  font-size: medium;
+  font-weight: lighter;
+}
